@@ -1,0 +1,79 @@
+.home-director-container{
+    margin: 0px 70px;
+    
+    @media(max-width: 900px){
+        margin: 0px 10px;
+    }
+}
+.home-director-container > .padded-content {
+    margin: 0;
+}
+.home-director-container >.deanContent >.img-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    /* padding-right: 40px; */
+    /* background-image: "../assets/img/dummy_user.png"; */
+    @media (max-width: 900px) {
+        height: 150px;
+        justify-content: center;
+    }
+}
+.home-director-container > .deanContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 50px;
+    @media(max-width: 900px){
+        flex-direction: column-reverse;;
+    }
+    /* border: red solid; */
+    
+}
+.home-director-container >.deanContent > .img-wrapper > .image {
+    /* display: flex; */
+    width : 300px;
+    height: 300px;
+    /* height: 100%; */
+    background-image: url("../assets/img/members//DirectorCIOT.jpg");
+    border-radius: 10px;
+    margin: 0px 20px;
+    /* height: 20%; */
+    /* border: blue solid; */
+    aspect-ratio: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media (max-width: 900px){
+    /* background-image: "src/assets/img/dummy_user.png"; */
+        border-radius: 50%;
+        /* width: 50%; */
+        /* aspect-ratio: 1; */
+        /* margin: 0px; */
+        width: 35%;
+        height: 90%;
+        overflow: hidden;
+        
+    }
+}
+
+/* img {
+    width: 100%;
+    aspect-ratio: 1;
+} */
+
+.home-director-container > .deanContent> .msg-wrap {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* border: 2px solid; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    display: flex;
+    text-align: justify;
+}
+.home-director-container > .msg-wrap > .msg-content {
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 4%;
+}
