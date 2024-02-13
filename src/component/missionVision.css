@@ -1,0 +1,138 @@
+.MissionVision {
+    /* position: absolute; */
+    height: 55vmax;
+    background-image: url(../assets/img/missionVision.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+
+    @media (max-width: 1000px) {
+        height: 100%;
+        /* background-size: cover; */
+        background-repeat: repeat-y;
+        /* transform: scale(1.35); */
+    }
+
+    ;
+}
+
+.vmMask {
+    /* position: relative; */
+    height: 55vmax;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    padding-bottom: 50px;   
+
+    @media (max-width: 1300px) {
+        height: 100%;
+    }
+}
+
+.vmContent {
+    /* border: red solid 2px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* @media (max-width: 1300px) {
+      flex-direction: column;
+    } */
+}
+
+.pointerList {
+    text-decoration: none;
+    /* overflow-y: scroll; */
+    list-style-type: none;
+    padding-top: 2%;
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+}
+
+/* .vmButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+  
+    @media (max-width: 1300px) {
+      padding: 3% 0 5% 0;
+    }
+  }
+  .vmButton button {
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    background-color: #36302f;
+    border: white solid 1px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 700;
+  }
+  .vmButton button:hover {
+    color: black;
+    background-color: white;
+    transition: 0.5s ease;
+  } */
+/* .vmButton button:{
+      color: black;
+      background-color: white;
+      transition: 0.5s ease;
+  } */
+.boxContainer {
+    height: 15%;
+    width: 75%;
+    text-align: justify;
+    color: aliceblue;
+    text-align: center;
+    justify-content: space-between;
+    border: rgba(0, 0, 0, 0.1) solid 2px;
+    font-size: 1.2rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-decoration: none;
+    margin-top: 3%;
+    border-radius: 10px;
+
+    @media (max-width: 1300px) {
+        width: 90%;
+        height: 20%;
+        padding: 1rem;
+        margin: 15px 0;
+        justify-content: space-evenly;
+    }
+}
+
+/* .boxImage {
+    padding: 5% 0 2.5% 0;
+    @media (max-width: 1300px) {
+      padding: 0;
+    }
+  } */
+.boxTitle {
+    /* padding: 2.5% 0 5% 0; */
+    font-size: xx-large;
+
+    @media (max-width: 1300px) {
+        padding: 1.5%;
+    }
+}
+
+.boxContent {
+    line-height: 1.5;
+    word-spacing: 0.1rem;
+}
+
+/* .pointerList-pointerLogo {
+
+    @media(max-width:500px) {
+        margin-left: -10%;
+
+    }
+} */
