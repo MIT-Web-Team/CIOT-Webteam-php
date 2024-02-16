@@ -1,0 +1,21 @@
+RewriteEngine On
+
+# # Serve {something}.php from src/pages when /{something} is accessed
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^([^/]+)$ /src/pages/$1.php [L]
+
+RewriteRule ^facilities$ src/pages/Facilities/facilities.php [L]
+
+RewriteRule ^member$ src/pages/Members/members.php [L]
+
+RewriteRule ^equipments$ src/pages/Equipments/equipments.php [L]
+
+RewriteRule ^research$ src/pages/ResearchOutcome/researchOutcome.php [L]
+
+RewriteRule ^event$ src/pages/Events/events.php [L]
+
+# For other requests, if the requested filename is not an existing file or directory, redirect to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
