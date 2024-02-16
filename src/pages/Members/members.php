@@ -269,3 +269,7 @@ $MemberDetails = [
   ?>
 </div>
 <?php include '../../component/Footer/footer.php'; ?>
+<script>
+    var imgElement = document.querySelector('.header-container img');
+    imgElement.setAttribute('src', '../../assets/img/logo.png');
+</script>
