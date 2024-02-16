@@ -1,0 +1,20 @@
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 67vh;
+
+    @media (max-width: 600px) {
+        height: max-content;
+        max-height: 100vh;
+        aspect-ratio: 1;
+    }
+}
+
+.carousel-wrapper {
+    margin: 2%;
+}
+
+.Imagecarosel-main-container {
+    margin: 20px 0;
+}
