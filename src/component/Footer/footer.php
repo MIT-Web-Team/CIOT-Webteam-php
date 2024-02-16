@@ -5,22 +5,22 @@
          <h5 class="text-uppercase">About Us</h5>
          <ul class="list-unstyled">
            <li>
-             <a href="/ciot">Home</a>
+             <a href="/">Home</a>
            </li>
            <li>
-             <a href="/ciot/facilities">Facilities</a>
+             <a href="/facilities">Facilities</a>
            </li>
            <li>
-             <a href="/ciot/member">Members</a>
+             <a href="/member">Members</a>
            </li>
            <li>
-             <a href="/ciot/equipments">Equipments</a>
+             <a href="/equipments">Equipments</a>
            </li>
            <li>
-             <a href="/ciot/event">Conference</a>
+             <a href="/event">Conference</a>
            </li>
            <li>
-             <a href="/ciot/event">Workshop</a>
+             <a href="/event">Workshop</a>
            </li>
          </ul>
        </div>
@@ -29,10 +29,10 @@
          <h5 class="text-uppercase">Research</h5>
          <ul class="list-unstyled">
            <li>
-             <a href="/ciot/member">List of Supervisors</a>
+             <a href="/member">List of Supervisors</a>
            </li>
            <li>
-             <a href="/ciot/research">Theses & Publications</a>
+             <a href="/research">Theses & Publications</a>
            </li>
            <li>
              <a href="#!">Projects</a>

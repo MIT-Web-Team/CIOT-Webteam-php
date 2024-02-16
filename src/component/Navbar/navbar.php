@@ -1,6 +1,6 @@
 <nav class="bg-body-tertiary navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="/ciot">
+        <a class="navbar-brand" href="/">
             <div class="header-container">
                 <img src="src/assets/img/logo.png" alt="" class="d-inline-block align-top image-logo">
                 <div class="inner">
@@ -15,22 +15,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/ciot">Home</a>
+                    <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/ciot/facilities">Facilities</a>
+                    <a class="nav-link" href="/facilities">Facilities</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/ciot/member">Members</a>
+                    <a class="nav-link" href="/member">Members</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/ciot/equipments">Equipment</a>
+                    <a class="nav-link" href="/equipments">Equipment</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/ciot/research">Research</a>
+                    <a class="nav-link" href="/research">Research</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/ciot/event">Events & Collaborations</a>
+                    <a class="nav-link" href="/event">Events & Collaborations</a>
                 </li>
             </ul>
         </div>
