@@ -7,7 +7,7 @@
     background-position: bottom;
     width: 100%;
 
-    @media (max-width: 1000px) {
+    @media (max-width: 1400px) {
         height: 100%;
         /* background-size: cover; */
         background-repeat: repeat-y;
@@ -100,7 +100,7 @@
     margin-top: 3%;
     border-radius: 10px;
 
-    @media (max-width: 1300px) {
+    @media (max-width: 1400px) {
         width: 90%;
         height: 20%;
         padding: 1rem;
