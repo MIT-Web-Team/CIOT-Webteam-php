@@ -38,3 +38,27 @@ $DirectorMessage = [
         <button id="toggle-content" class="btn btn-outline-primary" style="margin-left: 3rem!important;margin-right: 3rem!important;">Read More</button>
     </div>
 </div>
+<script>
+    window.onload = function() {
+        var toggleButton = document.getElementById("toggle-content");
+        var msgContent = document.getElementById("msg-content");
+        var DirectorMessage = <?php echo json_encode($DirectorMessage); ?>;
+        var initialContent = msgContent.innerHTML;
+
+        toggleButton.addEventListener("click", function() {
+            if (this.innerHTML == "Read More") {
+                this.innerHTML = "Read Less";
+                for (var i = 2; i < DirectorMessage.length; i++) {
+                    var newDiv = document.createElement("div");
+                    var newP = document.createElement("p");
+                    newP.textContent = DirectorMessage[i];
+                    newDiv.appendChild(newP);
+                    msgContent.appendChild(newDiv);
+                }
+            } else {
+                this.innerHTML = "Read More";
+                msgContent.innerHTML = initialContent;
+            }
+        });
+    };
+</script>
