@@ -2,7 +2,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="../../assets/annauniversity.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anna University - CIOT-PHP</title>
+    <title>Anna University - CIOT</title>
     <link rel="stylesheet" href="/index.css">
     <link rel="stylesheet" href="/src/component/Navbar/navbar.css">
     <link rel="stylesheet" href="/src/component/homeImage.css">
