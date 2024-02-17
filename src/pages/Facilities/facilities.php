@@ -6,9 +6,6 @@
     <link rel="stylesheet" href="/index.css">
     <link rel="stylesheet" href="/src/component/Navbar/navbar.css">
     <link rel="stylesheet" href="/src/component/homeImage.css">
-    <link rel="stylesheet" href="/src/component/preface.css">
-    <link rel="stylesheet" href="/src/component/director.css">
-    <link rel="stylesheet" href="/src/component/missionVision.css">
     <link rel="stylesheet" href="/src/component/Footer/footer.css">
     <link rel="stylesheet" href="/src/pages/Facilities/facilities.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
