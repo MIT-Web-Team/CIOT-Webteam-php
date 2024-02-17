@@ -38,8 +38,8 @@ $facilitiesDetails = [
 ];
 ?>
 <div class="home-container">
-    <?php include '/src/component/Navbar/navbar.php'; ?>
-    <?php include '/src/component/homeImage.php'; ?>
+    <?php include 'src/component/Navbar/navbar.php'; ?>
+    <?php include 'src/component/homeImage.php'; ?>
     <div class="padded-content">
         <div class="verticalTitleBar"></div>
         <h2>Facilities</h2>
@@ -67,8 +67,4 @@ $facilitiesDetails = [
         ?>
     </div>
 </div>
-<?php include '/src/component/Footer/footer.php'; ?>
-<script>
-    var imgElement = document.querySelector('.header-container img');
-    imgElement.setAttribute('src', '/src/assets/img/logo.png');
-</script>
+<?php include 'src/component/Footer/footer.php'; ?>
