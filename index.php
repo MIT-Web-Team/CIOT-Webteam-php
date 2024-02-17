@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="src/assets/annauniversity.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anna University - CIOT-PHP</title>
+    <title>Anna University - CIOT</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="./src/component/Navbar/navbar.css">
-    <link rel="stylesheet" href="./src/component/homeImage.css">
-    <link rel="stylesheet" href="./src/component/preface.css">
-    <link rel="stylesheet" href="./src/component/director.css">
-    <link rel="stylesheet" href="./src/component/missionVision.css">
-    <!-- <link rel="stylesheet" href="./src/component/thrustAreas.css"> -->
-    <link rel="stylesheet" href="./src/component/imageCarousel.css">
-    <link rel="stylesheet" href="./src/component/Footer/footer.css">
+    <link rel="stylesheet" href="/src/component/Navbar/navbar.css">
+    <link rel="stylesheet" href="/src/component/homeImage.css">
+    <link rel="stylesheet" href="/src/component/preface.css">
+    <link rel="stylesheet" href="/src/component/director.css">
+    <link rel="stylesheet" href="/src/component/missionVision.css">
+    <!-- <link rel="stylesheet" href="/src/component/thrustAreas.css"> -->
+    <link rel="stylesheet" href="/src/component/imageCarousel.css">
+    <link rel="stylesheet" href="/src/component/Footer/footer.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
