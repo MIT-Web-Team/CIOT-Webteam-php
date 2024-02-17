@@ -26,85 +26,85 @@
                 <button type="button" data-bs-target="#carouselSlide" aria-label="Slide 14" data-bs-slide-to="13" aria-current="false"></button>
             </div>
             <div class="carousel-inner">
-                <div interval="1000" class="active carousel-item"><img src="./src/assets/img/Research Projects/research1.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
+                <div interval="650" class="active carousel-item"><img src="./src/assets/img/Research Projects/research1.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
                     <div class="carousel-caption">
                         <h3></h3>
                         <p></p>
                     </div>
                 </div>
-                <div interval="1000" class="carousel-item"><img src="./src/assets/img/Research Projects/research2.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
+                <div interval="650" class="carousel-item"><img src="./src/assets/img/Research Projects/research2.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
                     <div class="carousel-caption">
                         <h3></h3>
                         <p></p>
                     </div>
                 </div>
-                <div interval="1000" class="carousel-item"><img src="./src/assets/img/Research Projects/research3.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
+                <div interval="650" class="carousel-item"><img src="./src/assets/img/Research Projects/research3.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
                     <div class="carousel-caption">
                         <h3></h3>
                         <p></p>
                     </div>
                 </div>
-                <div interval="1000" class="carousel-item"><img src="./src/assets/img/Research Projects/research4.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
+                <div interval="650" class="carousel-item"><img src="./src/assets/img/Research Projects/research4.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
                     <div class="carousel-caption">
                         <h3></h3>
                         <p></p>
                     </div>
                 </div>
-                <div interval="1000" class="carousel-item"><img src="./src/assets/img/Research Projects/research5.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
+                <div interval="650" class="carousel-item"><img src="./src/assets/img/Research Projects/research5.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
                     <div class="carousel-caption">
                         <h3></h3>
                         <p></p>
                     </div>
                 </div>
-                <div interval="1000" class="carousel-item"><img src="./src/assets/img/Research Projects/research6.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
+                <div interval="650" class="carousel-item"><img src="./src/assets/img/Research Projects/research6.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
                     <div class="carousel-caption">
                         <h3></h3>
                         <p></p>
                     </div>
                 </div>
-                <div interval="1000" class="carousel-item"><img src="./src/assets/img/Research Projects/research7.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
+                <div interval="650" class="carousel-item"><img src="./src/assets/img/Research Projects/research7.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
                     <div class="carousel-caption">
                         <h3></h3>
                         <p></p>
                     </div>
                 </div>
-                <div interval="1000" class="carousel-item"><img src="./src/assets/img/Research Projects/research8.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
+                <div interval="650" class="carousel-item"><img src="./src/assets/img/Research Projects/research8.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
                     <div class="carousel-caption">
                         <h3></h3>
                         <p></p>
                     </div>
                 </div>
-                <div interval="1000" class="carousel-item"><img src="./src/assets/img/Research Projects/research9.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
+                <div interval="650" class="carousel-item"><img src="./src/assets/img/Research Projects/research9.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
                     <div class="carousel-caption">
                         <h3></h3>
                         <p></p>
                     </div>
                 </div>
-                <div interval="1000" class="carousel-item"><img src="./src/assets/img/Research Projects/research10.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
+                <div interval="650" class="carousel-item"><img src="./src/assets/img/Research Projects/research10.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
                     <div class="carousel-caption">
                         <h3></h3>
                         <p></p>
                     </div>
                 </div>
-                <div interval="1000" class="carousel-item"><img src="./src/assets/img/Research Projects/research11.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
+                <div interval="650" class="carousel-item"><img src="./src/assets/img/Research Projects/research11.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
                     <div class="carousel-caption">
                         <h3></h3>
                         <p></p>
                     </div>
                 </div>
-                <div interval="1000" class="carousel-item"><img src="./src/assets/img/Research Projects/research12.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
+                <div interval="650" class="carousel-item"><img src="./src/assets/img/Research Projects/research12.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
                     <div class="carousel-caption">
                         <h3></h3>
                         <p></p>
                     </div>
                 </div>
-                <div interval="1000" class="carousel-item"><img src="./src/assets/img/Research Projects/research13.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
+                <div interval="650" class="carousel-item"><img src="./src/assets/img/Research Projects/research13.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
                     <div class="carousel-caption">
                         <h3></h3>
                         <p></p>
                     </div>
                 </div>
-                <div interval="1000" class="carousel-item"><img src="./src/assets/img/Research Projects/research14.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
+                <div interval="650" class="carousel-item"><img src="./src/assets/img/Research Projects/research14.jpeg" class="image-carosel img-fluid" style="border-radius: 10px;">
                     <div class="carousel-caption">
                         <h3></h3>
                         <p></p>
