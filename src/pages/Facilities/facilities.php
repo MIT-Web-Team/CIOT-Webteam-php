@@ -1,16 +1,16 @@
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="../../assets/annauniversity.svg" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/annauniversity.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anna University - CIOT-PHP</title>
-    <link rel="stylesheet" href="../../../index.css">
-    <link rel="stylesheet" href="../../component/Navbar/navbar.css">
-    <link rel="stylesheet" href="../../component/homeImage.css">
-    <link rel="stylesheet" href="../../component/preface.css">
-    <link rel="stylesheet" href="../../component/director.css">
-    <link rel="stylesheet" href="../../component/missionVision.css">
-    <link rel="stylesheet" href="../../component/Footer/footer.css">
-    <link rel="stylesheet" href="./facilities.css">
+    <title>Anna University - CIOT</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/src/component/Navbar/navbar.css">
+    <link rel="stylesheet" href="/src/component/homeImage.css">
+    <link rel="stylesheet" href="/src/component/preface.css">
+    <link rel="stylesheet" href="/src/component/director.css">
+    <link rel="stylesheet" href="/src/component/missionVision.css">
+    <link rel="stylesheet" href="/src/component/Footer/footer.css">
+    <link rel="stylesheet" href="/src/pages/Facilities/facilities.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -20,26 +20,26 @@
 <?php
 $facilitiesDetails = [
     [
-        "image" => "../../assets/img/facilities/Picture1.jpg",
+        "image" => "/src/assets/img/facilities/Picture1.jpg",
         "title" => "Opto-electronics Laboratory",
     ],
     [
-        "image" => "../../assets/img/facilities/Picture2.jpg",
+        "image" => "/src/assets/img/facilities/Picture2.jpg",
         "title" => "Soil Processing Laboratory",
     ],
     [
-        "image" => "../../assets/img/facilities/Picture3.jpg",
+        "image" => "/src/assets/img/facilities/Picture3.jpg",
         "title" => "Security and Data Analytics Laboratory",
     ],
     [
-        "image" => "../../assets/img/facilities/Picture4.jpg",
+        "image" => "/src/assets/img/facilities/Picture4.jpg",
         "title" => "Embedded and IoT Lab",
     ]
 ];
 ?>
 <div class="home-container">
-    <?php include '../../component/Navbar/navbar.php'; ?>
-    <?php include '../../component/homeImage.php'; ?>
+    <?php include '/src/component/Navbar/navbar.php'; ?>
+    <?php include '/src/component/homeImage.php'; ?>
     <div class="padded-content">
         <div class="verticalTitleBar"></div>
         <h2>Facilities</h2>
@@ -67,8 +67,8 @@ $facilitiesDetails = [
         ?>
     </div>
 </div>
-<?php include '../../component/Footer/footer.php'; ?>
+<?php include '/src/component/Footer/footer.php'; ?>
 <script>
     var imgElement = document.querySelector('.header-container img');
-    imgElement.setAttribute('src', '../../assets/img/logo.png');
+    imgElement.setAttribute('src', '/src/assets/img/logo.png');
 </script>
