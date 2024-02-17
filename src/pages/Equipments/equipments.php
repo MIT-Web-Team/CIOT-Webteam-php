@@ -1,19 +1,13 @@
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="../../assets/annauniversity.svg" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/annauniversity.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anna University - CIOT-PHP</title>
-    <link rel="stylesheet" href="../../../index.css">
-    <link rel="stylesheet" href="../../component/Navbar/navbar.css">
-    <link rel="stylesheet" href="../../component/homeImage.css">
-    <link rel="stylesheet" href="../../component/preface.css">
-    <link rel="stylesheet" href="../../component/director.css">
-    <link rel="stylesheet" href="../../component/missionVision.css">
-    <link rel="stylesheet" href="../../component/Footer/footer.css">
-    <link rel="stylesheet" href="../Facilities/facilities.css">
-    <link rel="stylesheet" href="../Members/members.css">
-    <link rel="stylesheet" href="../Members/memberCard.css">
-    <link rel="stylesheet" href="./equipments.css">
+    <title>Anna University - CIOT</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/src/component/Navbar/navbar.css">
+    <link rel="stylesheet" href="/src/component/homeImage.css">
+    <link rel="stylesheet" href="/src/component/Footer/footer.css">
+    <link rel="stylesheet" href="/src/pages/Equipments/equipments.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -24,7 +18,7 @@
 <?php
 $highEndEquipment = [
     [
-        "image" => "../../assets/img/equipments/pic1.jpg",
+        "image" => "/src/assets/img/equipments/pic1.jpg",
         "title" => "Pulsed Laser System",
         "subtitle" => "Splitlight compact 100",
         "specs" => [
@@ -42,7 +36,7 @@ $highEndEquipment = [
         ],
     ],
     [
-        "image" => "../../assets/img/equipments/pic2.jpg",
+        "image" => "/src/assets/img/equipments/pic2.jpg",
         "title" => "Q-switched DPSS lasers",
         "subtitle" => "Splitlight compact 100",
         "specs" => [
@@ -63,7 +57,7 @@ $highEndEquipment = [
         ],
     ],
     [
-        "image" => "../../assets/img/equipments/pic3.jpg",
+        "image" => "/src/assets/img/equipments/pic3.jpg",
         "title" => "Spectrometer",
         "subtitle" => "Kymera 193i",
         "specs" => [
@@ -81,7 +75,7 @@ $highEndEquipment = [
         ],
     ],
     [
-        "image" => "../../assets/img/equipments/pic4.jpg",
+        "image" => "/src/assets/img/equipments/pic4.jpg",
         "title" => "Delay Generator",
         "subtitle" => " Delay Generator",
         "specs" => [
@@ -100,7 +94,7 @@ $highEndEquipment = [
         ],
     ],
     [
-        "image" => "../../assets/img/equipments/pic5.jpg",
+        "image" => "/src/assets/img/equipments/pic5.jpg",
         "title" => "Photo Multiplier Tube",
         "subtitle" => "Multiplier Tube",
         "specs" => [
@@ -118,7 +112,7 @@ $highEndEquipment = [
         ],
     ],
     [
-        "image" => "../../assets/img/equipments/pic6.jpg",
+        "image" => "/src/assets/img/equipments/pic6.jpg",
         "title" => "Server",
         "subtitle" => "Lenovo",
         "specs" => [
@@ -130,7 +124,7 @@ $highEndEquipment = [
         "Applications" => [],
     ],
     [
-        "image" => "../../assets/img/equipments/pic7.jpg",
+        "image" => "/src/assets/img/equipments/pic7.jpg",
         "title" => "Hot Air Oven",
         "subtitle" => " Double Wall Chamber",
         "specs" => [
@@ -150,7 +144,7 @@ $highEndEquipment = [
         ],
     ],
     [
-        "image" => "../../assets/img/equipments/pic8.jpg  ",
+        "image" => "/src/assets/img/equipments/pic8.jpg  ",
         "title" => "Pellet Making Setup",
         "subtitle" => "Lenovo",
         "specs" => [
@@ -335,7 +329,3 @@ function equipmentCards2($embeddedBoards)
     <?php equipmentCards2($embeddedBoards); ?>
 </div>
 <?php include '../../component/Footer/footer.php'; ?>
-<script>
-    var imgElement = document.querySelector('.header-container img');
-    imgElement.setAttribute('src', '../../assets/img/logo.png');
-</script>
