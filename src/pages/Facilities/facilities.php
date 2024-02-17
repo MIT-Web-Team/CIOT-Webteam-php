@@ -38,8 +38,8 @@ $facilitiesDetails = [
 ];
 ?>
 <div class="home-container">
-    <?php include 'src/component/Navbar/navbar.php'; ?>
-    <?php include 'src/component/homeImage.php'; ?>
+    <?php include '../../component/Navbar/navbar.php'; ?>
+    <?php include '../../component/homeImage.php'; ?>
     <div class="padded-content">
         <div class="verticalTitleBar"></div>
         <h2>Facilities</h2>
@@ -67,4 +67,4 @@ $facilitiesDetails = [
         ?>
     </div>
 </div>
-<?php include 'src/component/Footer/footer.php'; ?>
+<?php include '../../component/Footer/footer.php'; ?>
