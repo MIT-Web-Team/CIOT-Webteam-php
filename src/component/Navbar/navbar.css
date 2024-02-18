@@ -62,6 +62,6 @@
 }
 
 .container {
-  padding-left: calc(1.5rem * .5);
-  padding-right: calc(1.5rem * .5);
+  padding-left: calc(1.5rem * .5) !important;
+  padding-right: calc(1.5rem * .5) !important;
 }
